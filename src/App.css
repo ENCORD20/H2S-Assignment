@@ -42,8 +42,8 @@ a {
 
 .site-shell {
   position: relative;
-  width: min(100%, 1440px);
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   overflow: visible;
   background:
     radial-gradient(
@@ -92,8 +92,8 @@ a {
 .faq-section {
   position: relative;
   z-index: 1;
-  width: min(100%, 1090px);
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding-inline: clamp(1.25rem, 4vw, 4.5rem);
 }
 
