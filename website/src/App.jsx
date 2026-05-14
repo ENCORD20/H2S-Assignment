@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import modelImg from "./assets/model_img.png";
 import astronautImg from "./assets/astronaut.png";
-import ballImg from "./assets/ball.jpg";
 import brainImg from "./assets/brain_img.jpg";
 import footerImg from "./assets/footer_img.png";
 
@@ -157,7 +156,6 @@ function App() {
   return (
     <main className="site-shell">
       <img src={brainImg} alt="Brain" className="brain-image" />
-      <img src={ballImg} alt="Ball" className="ball-image" />
       <section className="hero-section" id="top">
         <nav className="nav-pill" aria-label="Primary navigation">
           <a className="brand" href="#top">
